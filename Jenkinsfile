@@ -5,7 +5,7 @@ pipeline {
             steps {
                //bat "rmdir  /s /q TicketBookingServiceJunitTesting"
                 //bat "git clone https://github.com/kishancs2020/TicketBookingServiceJunitTesting.git"
-              bat "git clone https://github.com/foenixteam237/fisrtJava.git"
+              bat "git clone https://github.com/foenixteam237/firstJava.git"
             }
         }
         stage('Compilation') {
