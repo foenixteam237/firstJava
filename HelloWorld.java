@@ -5,5 +5,7 @@
 public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello, World");
+    System.out.println("Veuillez patienter pendant 30s");
+    for(int i = 30; i >= 0; i--) System.out.println(""+i);
   }
 }
